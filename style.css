@@ -279,6 +279,250 @@ canvas{
     text-align: center;
 }
 
+@media screen and (max-width: 1085px) {
+    #loop{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    height: 25%;
+    width: 100%;
+    font-size: 50px;
+    white-space: nowrap;
+    font-family: gilroy;
+}
+#loop>h1{
+    color: #000000;
+    font-weight: 400;
+    animation-name: anim;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#loop>h1>span{
+    -webkit-text-stroke: 1.5px #000;
+    color: transparent;
+    font-weight: 500;
+}
+@keyframes anim{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    padding: 0px 30px;
+}
+#nav>h3{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 18px;
+}
+#nav>button{
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#page>h3{
+    font-size: 8px;
+    position: absolute;
+    top: 55%;
+    font-family: gilroy;
+    font-weight: 400;
+    color: #7c7c7c;
+    left: 3%;
+}
+#page>h4{
+    font-size: 8px;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    font-family: gilroy;
+    font-weight: 600;
+    color: #555555;
+}
+#page1>#right-text{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+#page1>#right-text>h3{
+    font-size: 10px;
+    font-weight: 400;
+    color: #7c7c7c;
+}
+#page1>#right-text>h1{
+    line-height: 1;
+    font-size: 25px;
+}
+#page1>#left-text{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    text-align: end;
+}
+#page1>#left-text>h1{
+    font-size: 10px;
+    line-height: 1;
+}
+#page1>#left-text>h3{
+    font-size: 15px;
+    color: #7c7c7c;
+    font-weight: 400;
+}
+#page2>#text1{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+#page2>#text1>h3{
+    font-size: 15px;
+    color: #7c7c7c;
+    font-weight: 400;
+}
+#page2>#text1>h1{
+    font-size: 20px;
+    line-height: 1;
+}
+#page2>#text2{
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    text-align: end;
+}
+#page2>#text2>p{
+    font-size: 10px;
+    color: #7c7c7c;
+    font-weight: 400;
+}
+#page3>#text3{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    text-align: end;
+}
+#page3>#text3>h3{
+    font-size: 15px;
+    color: #7c7c7c;
+    font-weight: 400;
+}
+#page3>#text3>h1{
+    font-size: 20px;
+
+}
+#page3>#text4>p{
+    font-size: 10px;
+    line-height: 1;
+}
+#page3>#text4{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    text-align:left;
+}
+#page3>text4>ul{
+    font-size: 10px;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    text-align: left;
+    
+    
+}
+#page3 ul li{
+    list-style: none;
+    font-size: 10px;
+    line-height: 1.2;
+}
+/* #page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f1;
+} */
+/* this is the extra code */
+#connect{
+    height: 20vh;
+    background: #f1f1f1;
+    font-weight: 300;
+    color: #171717;
+    text-align: center;
+    align-items: center;
+}
+#connect h1{
+ font-size: 30px;
+ color: #000000;
+}
+#connect h3{
+    margin-top: 45px;
+ font-size: 50px;
+ color: #480071;
+}
+#centered {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+#centered a {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: 30px;
+    line-height: 200px;
+}
+
+#centered a:hover {
+    background-color: #f1f1f1;
+}
+
+#centered a i {
+    position: relative;
+    transition: all 0.3s linear;
+}
+
+#centered a:hover i {
+    transform: scale(0.8);
+}
+
+.fa-behance {
+    color: rgb(34, 34, 219);
+}
+
+.fa-instagram {
+    color: rgb(255, 60, 0);
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-linkedin {
+    color: #0097e6;
+}
+
+
+
+}
 
 /* @media screen and (max-width: 1085px) {
     .footer-items {
